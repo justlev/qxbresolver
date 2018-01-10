@@ -1,0 +1,16 @@
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.deps.json
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.runtimeconfig.json
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.runtimeconfig.dev.json
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.pdb
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.dll
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.pdb
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.csproj.CoreCompileInputs.cache
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.AssemblyInfoInputs.cache
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.AssemblyInfo.cs
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.dll
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.pdb
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/IsakovSolver.lattice
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/isakov_linux
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/isakov_mac
+/Users/levperlman/Projects/QXB/Resolver/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/isakov_win.exe

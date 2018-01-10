@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
+      <Project>{5968293F-7F27-4970-BD1D-498D744AC51E}</Project>
+      <Name>Resolver</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_Resolver.-1724165109.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Resolver" t="IncludeRecursive">
+        <e p="API" t="Include">
+          <e p="IQubitsCalculationAPI.cs" t="Include" />
+          <e p="QubitsCalculationAPI.cs" t="Include" />
+        </e>
+        <e p="Bias" t="Include">
+          <e p="DecimalBiasProvider.cs" t="Include" />
+          <e p="IBiasProvider.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Convertion" t="Include">
+          <e p="DecimalQubitsToGroupsConverter.cs" t="Include" />
+          <e p="IQubitsToGroupsConverter.cs" t="Include" />
+          <e p="ResultsFilters.cs" t="Include" />
+        </e>
+        <e p="Coupling" t="Include">
+          <e p="DecimalCouplingProvider.cs" t="Include" />
+          <e p="ICouplingProvider.cs" t="Include" />
+        </e>
+        <e p="Facade" t="Include">
+          <e p="DecimalQuantumDataExtractionFacade.cs" t="Include" />
+          <e p="IQuantumDataExtractionFacade.cs" t="Include" />
+        </e>
+        <e p="isakov_linux" t="Include" />
+        <e p="isakov_mac" t="Include" />
+        <e p="isakov_win.exe" t="Include" />
+        <e p="IsakovSolver.lattice" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Bias" t="Include">
+            <e p="Bias.cs" t="Include" />
+            <e p="IBias.cs" t="Include" />
+          </e>
+          <e p="BinaryGroup" t="Include">
+            <e p="DecimalBinaryGroup.cs" t="Include" />
+            <e p="IBinaryGroup.cs" t="Include" />
+          </e>
+          <e p="Coupling" t="Include">
+            <e p="Coupling.cs" t="Include" />
+            <e p="ICoupling.cs" t="Include" />
+          </e>
+          <e p="CouplingAndBias" t="Include">
+            <e p="CouplingsAndBiases.cs" t="Include" />
+            <e p="ICouplingsAndBiases.cs" t="Include" />
+          </e>
+          <e p="ResolveResponse" t="Include" />
+          <e p="Resolving" t="Include">
+            <e p="IQubitsResolvingResponse.cs" t="Include" />
+            <e p="IsakovScriptResponse.cs" t="Include" />
+          </e>
+          <e p="Response" t="Include" />
+          <e p="Responses" t="Include">
+            <e p="GeneralResponse.cs" t="Include" />
+            <e p="IResponse.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Resolver.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="QuantumResolving" t="Include">
+          <e p="IQubitsResolver.cs" t="Include" />
+          <e p="IsakovScriptQubitsResolver.cs" t="Include" />
+        </e>
+        <e p="Resolver.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="Configuration" t="Include">
+            <e p="ConfigurationKeys.cs" t="Include" />
+            <e p="DemoMemoryConfiguration.cs" t="Include" />
+            <e p="IConfigurationProvider.cs" t="Include" />
+          </e>
+          <e p="Files" t="Include">
+            <e p="IFilesService.cs" t="Include" />
+            <e p="SimpleFileService.cs" t="Include" />
+          </e>
+          <e p="Process" t="Include">
+            <e p="IProcessService.cs" t="Include" />
+            <e p="ProcessService.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Resolver.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

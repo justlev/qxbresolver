@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "ResolverConsole/1.0.0": {
+        "dependencies": {
+          "Resolver": "1.0.0"
+        },
+        "runtime": {
+          "ResolverConsole.dll": {}
+        }
+      },
+      "Resolver/1.0.0": {
+        "runtime": {
+          "Resolver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ResolverConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Resolver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
