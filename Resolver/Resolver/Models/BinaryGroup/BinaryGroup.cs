@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -51,10 +52,15 @@ namespace Resolver.Models.BinaryGroup
             var sb = new StringBuilder();
             sb.Append(groupName);
             sb.Append(": [");
-            foreach (var item in group)
+            var length = group.Count();
+            for (var i = 0;i<length;i++)
             {
+                var item = group.ElementAt(i);
                 sb.Append(item);
-                sb.Append("  ");
+                if (i != length - 1)
+                {
+                    sb.Append("  ");
+                }
             }
             sb.Append("]\n");
             return sb.ToString();
