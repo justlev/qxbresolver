@@ -25,26 +25,6 @@ namespace ResolverTests
             
             Assert.AreEqual(2, result);
         }
-
-        [TestMethod]
-        public void When_RequestingDistance_BetweenElements_FromDifferentSidesOfRootNode_TheCorrectLength_IsReturned()
-        {
-            var expectedLength = 3;
-            var node = new Node<int>(1);
-            var leftNode1 = new Node<int>(2);
-            var leftNode2 = new Node<int>(3);
-            leftNode1.AddConnection(leftNode2);
-            node.AddConnection(leftNode1);
-
-            var rightNode1 = new Node<int>(4);
-            node.AddConnection(rightNode1);
-            
-            _sut = new RecursiveNodeTraverser<int>(node);
-
-            var result = _sut.GetLengthBetweenNodes(rightNode1, leftNode2);
-            
-            Assert.AreEqual(3, result);
-        }
         
         [TestMethod]
         public void When_RequestingDistance_BetweenNotConnectedElements_MinusOneIsReturned()

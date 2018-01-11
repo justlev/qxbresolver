@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="32cb7643-505d-44c0-810d-7a7e33c3d5ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Resolver/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Resolver/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" afterPath="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" />
-      <change beforePath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.dll" />
-      <change beforePath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.pdb" />
-      <change beforePath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.dll" />
-      <change beforePath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.pdb" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" afterPath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" afterPath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs" afterPath="$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" afterPath="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/Program.cs" afterPath="$PROJECT_DIR$/ResolverConsole/Program.cs" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/IsakovSolver.lattice" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/IsakovSolver.lattice" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.dll" />
-      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.pdb" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.pdb" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/IsakovSolver.lattice" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Scripts/IsakovSolver.lattice" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.dll" afterPath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.dll" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.pdb" />
+      <change beforePath="$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs" afterPath="$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs" />
       <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.dll" />
       <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.pdb" />
     </list>
@@ -34,7 +26,7 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResolverConsole/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="252">
               <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
                 <marker date="1515691924000" expanded="false" signature="6:55" ph="..." />
@@ -47,6 +39,48 @@
                 <marker date="1515691924000" expanded="true" signature="963:1194" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
                 <marker date="1515691924000" expanded="true" signature="1423:1558" ph="{...}" />
                 <marker date="1515691924000" expanded="true" signature="1611:1737" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphDividingProblemRunner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="67" column="12" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="71" />
+              <folding>
+                <marker date="1515693728000" expanded="false" signature="6:453" ph="..." />
+                <marker date="1515693728000" expanded="true" signature="480:4112" ph="{...}" />
+                <marker date="1515693728000" expanded="true" signature="487:573" ph="/// The actual coding challange is run from here. ... " />
+                <marker date="1515693728000" expanded="true" signature="617:4110" ph="{...}" />
+                <marker date="1515693728000" expanded="true" signature="632:874" ph="/// Creates configuration, registers instances, runs the API and returns result ... " />
+                <marker date="1515693728000" expanded="true" signature="990:1359" ph="{...}" />
+                <marker date="1515693728000" expanded="true" signature="1377:1885" ph="/// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interf ... " />
+                <marker date="1515693728000" expanded="true" signature="2021:3086" ph="{...}" />
+                <marker date="1515693728000" expanded="true" signature="3096:3196" ph="/// Demo configuration. ... " />
+                <marker date="1515693728000" expanded="true" signature="3261:4104" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupsComparisonProblemRunner.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="64" column="71" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+              <folding>
+                <marker date="1515693747000" expanded="false" signature="6:408" ph="..." />
+                <marker date="1515693747000" expanded="true" signature="435:3769" ph="{...}" />
+                <marker date="1515693747000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
+                <marker date="1515693747000" expanded="true" signature="711:3767" ph="{...}" />
+                <marker date="1515693747000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
+                <marker date="1515693747000" expanded="true" signature="1057:1369" ph="{...}" />
+                <marker date="1515693747000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
+                <marker date="1515693747000" expanded="true" signature="1734:2725" ph="{...}" />
+                <marker date="1515693747000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
+                <marker date="1515693747000" expanded="true" signature="2918:3761" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,31 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsComparisonProblemRunner.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-              <folding>
-                <marker date="1515691821000" expanded="false" signature="6:408" ph="..." />
-                <marker date="1515691821000" expanded="true" signature="435:3751" ph="{...}" />
-                <marker date="1515691821000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
-                <marker date="1515691821000" expanded="true" signature="711:3749" ph="{...}" />
-                <marker date="1515691821000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
-                <marker date="1515691821000" expanded="true" signature="1057:1369" ph="{...}" />
-                <marker date="1515691821000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
-                <marker date="1515691821000" expanded="true" signature="1734:2725" ph="{...}" />
-                <marker date="1515691821000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
-                <marker date="1515691821000" expanded="true" signature="2918:3743" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DemoMemoryConfiguration.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="-348">
               <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <marker date="1515666870000" expanded="false" signature="6:103" ph="..." />
@@ -116,6 +129,29 @@
                 <marker date="1515666870000" expanded="true" signature="2531:2611" ph="{...}" />
                 <marker date="1515666870000" expanded="true" signature="2729:2797" ph="{...}" />
                 <marker date="1515666870000" expanded="true" signature="2878:2977" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeContainer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResolverTests/FakeContainer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <marker date="1515688843000" expanded="false" signature="6:310" ph="..." />
+                <marker date="1515688843000" expanded="true" signature="335:2127" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="375:2125" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="440:523" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="705:837" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1030:1192" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1291:1385" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1468:1544" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1603:1677" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1731:1803" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="1880:1963" ph="{...}" />
+                <marker date="1515688843000" expanded="true" signature="2040:2119" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -141,24 +177,6 @@
                 <marker date="1515688505000" expanded="true" signature="4286:5038" ph="{...}" />
                 <marker date="1515688505000" expanded="true" signature="4394:4577" ph="{...}" />
                 <marker date="1515688505000" expanded="true" signature="4614:5001" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuantumDataExtractionFacade.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resolver/Facade/QuantumDataExtractionFacade.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-              <folding>
-                <marker date="1515688534000" expanded="false" signature="6:130" ph="..." />
-                <marker date="1515688534000" expanded="true" signature="157:1657" ph="{...}" />
-                <marker date="1515688534000" expanded="true" signature="330:1655" ph="{...}" />
-                <marker date="1515688534000" expanded="true" signature="656:770" ph="{...}" />
-                <marker date="1515688534000" expanded="true" signature="897:1649" ph="{...}" />
-                <marker date="1515688534000" expanded="true" signature="1109:1610" ph="{...}" />
-                <marker date="1515688534000" expanded="true" signature="1348:1596" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -190,50 +208,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphTraversalCouplingProvider.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resolver/Coupling/GraphTraversalCouplingProvider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <marker date="1515668993000" expanded="false" signature="6:58" ph="..." />
-                <marker date="1515668993000" expanded="true" signature="87:671" ph="{...}" />
-                <marker date="1515668993000" expanded="true" signature="94:174" ph="/// This is the actual task implementation. ... " />
-                <marker date="1515668993000" expanded="true" signature="267:669" ph="{...}" />
-                <marker date="1515668993000" expanded="true" signature="417:483" ph="{...}" />
-                <marker date="1515668993000" expanded="true" signature="571:663" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphArgsParser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-              <folding>
-                <marker date="1515693142000" expanded="false" signature="6:76" ph="..." />
-                <marker date="1515693142000" expanded="true" signature="122:1763" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="129:257" ph="/// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --&gt; Node3,  Node2 --&gt; Node4. ... " />
-                <marker date="1515693142000" expanded="true" signature="338:1761" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="417:1755" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="553:1711" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="655:836" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="925:1110" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="1162:1260" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="1314:1416" ph="{...}" />
-                <marker date="1515693142000" expanded="true" signature="1418:1605" ph="/* if (to == 0) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecursiveNodeTraverser.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecursiveNodeTraverser.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <marker date="1515693312000" expanded="false" signature="6:42" ph="..." />
                 <marker date="1515693312000" expanded="true" signature="76:1300" ph="{...}" />
@@ -243,6 +222,22 @@
                 <marker date="1515693312000" expanded="true" signature="837:1292" ph="{...}" />
                 <marker date="1515693312000" expanded="true" signature="890:978" ph="{...}" />
                 <marker date="1515693312000" expanded="true" signature="1052:1220" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraverserTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+              <folding>
+                <marker date="1515693359000" expanded="false" signature="6:110" ph="..." />
+                <marker date="1515693359000" expanded="true" signature="135:1307" ph="{...}" />
+                <marker date="1515693359000" expanded="true" signature="185:1305" ph="{...}" />
+                <marker date="1515693359000" expanded="true" signature="364:845" ph="{...}" />
+                <marker date="1515693359000" expanded="true" signature="968:1299" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -327,7 +322,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ResolverTests/CouplingTests.cs" />
         <option value="$PROJECT_DIR$/ResolverTests/Couplings/TraverserTests.cs" />
         <option value="$PROJECT_DIR$/ResolverTests/Couplings/FakeContainer.cs" />
         <option value="$PROJECT_DIR$/ResolverTests/IntegrationTests/ResolverAPIIntegrationTests.cs" />
@@ -371,13 +365,14 @@
         <option value="$PROJECT_DIR$/Resolver/Services/Files/SimpleFileService.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GraphTraversalProgram.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProgram.cs" />
-        <option value="$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs" />
         <option value="$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" />
-        <option value="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/Program.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" />
         <option value="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" />
+        <option value="$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs" />
+        <option value="$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs" />
+        <option value="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" />
       </list>
     </option>
   </component>
@@ -439,6 +434,11 @@
               <item name="ResolverConsole" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="CommandLineParsers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Resolver (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ResolverTests" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -463,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Resolver">
     <configuration name="Resolver" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -483,6 +483,9 @@
       <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
       <browser url="http://localhost:5000" />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Resolver" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -505,9 +508,9 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.521686" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.695785" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.47831398" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.5241295" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.6927306" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.4758705" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33786848" sideWeight="0.49786195" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20525351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -687,8 +690,21 @@
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs">
+            <startOffsets>
+              <startOffset value="991" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1014" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -742,13 +758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resolver/Models/Coupling/Coupling.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ResolverTests/IsakovResolverWrapperTests/IsakovResolverTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -797,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverTests/FakeContainer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -982,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resolver/API/IQubitsCalculationAPI.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1047,50 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-          <folding>
-            <marker date="1515691821000" expanded="false" signature="6:408" ph="..." />
-            <marker date="1515691821000" expanded="true" signature="435:3751" ph="{...}" />
-            <marker date="1515691821000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
-            <marker date="1515691821000" expanded="true" signature="711:3749" ph="{...}" />
-            <marker date="1515691821000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
-            <marker date="1515691821000" expanded="true" signature="1057:1369" ph="{...}" />
-            <marker date="1515691821000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
-            <marker date="1515691821000" expanded="true" signature="1734:2725" ph="{...}" />
-            <marker date="1515691821000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
-            <marker date="1515691821000" expanded="true" signature="2918:3743" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <marker date="1515666870000" expanded="false" signature="6:103" ph="..." />
-            <marker date="1515666870000" expanded="true" signature="130:2985" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="137:540" ph="/// This is a &quot;storage&quot; for testing purposes. ... " />
-            <marker date="1515666870000" expanded="true" signature="606:2983" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="728:818" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="869:937" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="981:1104" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="1165:1791" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="1291:1741" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="1801:2002" ph="/// The .NET Core implementation of Environment.Platform and RuntimeServices.OSVersion DO NOT detect MacOS. ... " />
-            <marker date="1515666870000" expanded="true" signature="2043:2846" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="2227:2297" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="2355:2642" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="2531:2611" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="2729:2797" ph="{...}" />
-            <marker date="1515666870000" expanded="true" signature="2878:2977" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resolver/Coupling/GraphTraversalCouplingProvider.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1122,25 +1073,6 @@
             <marker date="1515693142000" expanded="true" signature="1162:1260" ph="{...}" />
             <marker date="1515693142000" expanded="true" signature="1314:1416" ph="{...}" />
             <marker date="1515693142000" expanded="true" signature="1418:1605" ph="/* if (to == 0) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <marker date="1515691924000" expanded="false" signature="6:55" ph="..." />
-            <marker date="1515691924000" expanded="true" signature="82:1755" ph="{...}" />
-            <marker date="1515691924000" expanded="true" signature="109:1753" ph="{...}" />
-            <marker date="1515691924000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
-            <marker date="1515691924000" expanded="true" signature="288:1747" ph="{...}" />
-            <marker date="1515691924000" expanded="true" signature="331:543" ph="{...}" />
-            <marker date="1515691924000" expanded="true" signature="707:897" ph="/* args = new[] {&quot;&quot;,&quot;1&quot;, &quot;4&quot;, &quot;6&quot;, &quot;9&quot;}; //- Use for Difference Between Groups Usecase. ... */" />
-            <marker date="1515691924000" expanded="true" signature="963:1194" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
-            <marker date="1515691924000" expanded="true" signature="1423:1558" ph="{...}" />
-            <marker date="1515691924000" expanded="true" signature="1611:1737" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1230,7 +1162,7 @@
     <entry file="file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <marker date="1515693312000" expanded="false" signature="6:42" ph="..." />
             <marker date="1515693312000" expanded="true" signature="76:1300" ph="{...}" />
@@ -1240,6 +1172,123 @@
             <marker date="1515693312000" expanded="true" signature="837:1292" ph="{...}" />
             <marker date="1515693312000" expanded="true" signature="890:978" ph="{...}" />
             <marker date="1515693312000" expanded="true" signature="1052:1220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverTests/TraversalTests/TraverserTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+          <folding>
+            <marker date="1515693359000" expanded="false" signature="6:110" ph="..." />
+            <marker date="1515693359000" expanded="true" signature="135:1307" ph="{...}" />
+            <marker date="1515693359000" expanded="true" signature="185:1305" ph="{...}" />
+            <marker date="1515693359000" expanded="true" signature="364:845" ph="{...}" />
+            <marker date="1515693359000" expanded="true" signature="968:1299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <marker date="1515666870000" expanded="false" signature="6:103" ph="..." />
+            <marker date="1515666870000" expanded="true" signature="130:2985" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="137:540" ph="/// This is a &quot;storage&quot; for testing purposes. ... " />
+            <marker date="1515666870000" expanded="true" signature="606:2983" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="728:818" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="869:937" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="981:1104" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="1165:1791" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="1291:1741" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="1801:2002" ph="/// The .NET Core implementation of Environment.Platform and RuntimeServices.OSVersion DO NOT detect MacOS. ... " />
+            <marker date="1515666870000" expanded="true" signature="2043:2846" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="2227:2297" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="2355:2642" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="2531:2611" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="2729:2797" ph="{...}" />
+            <marker date="1515666870000" expanded="true" signature="2878:2977" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverTests/FakeContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <marker date="1515688843000" expanded="false" signature="6:310" ph="..." />
+            <marker date="1515688843000" expanded="true" signature="335:2127" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="375:2125" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="440:523" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="705:837" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1030:1192" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1291:1385" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1468:1544" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1603:1677" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1731:1803" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="1880:1963" ph="{...}" />
+            <marker date="1515688843000" expanded="true" signature="2040:2119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <marker date="1515691924000" expanded="false" signature="6:55" ph="..." />
+            <marker date="1515691924000" expanded="true" signature="82:1755" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="109:1753" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
+            <marker date="1515691924000" expanded="true" signature="288:1747" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="331:543" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="707:897" ph="/* args = new[] {&quot;&quot;,&quot;1&quot;, &quot;4&quot;, &quot;6&quot;, &quot;9&quot;}; //- Use for Difference Between Groups Usecase. ... */" />
+            <marker date="1515691924000" expanded="true" signature="963:1194" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
+            <marker date="1515691924000" expanded="true" signature="1423:1558" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="1611:1737" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="67" column="12" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="71" />
+          <folding>
+            <marker date="1515693728000" expanded="false" signature="6:453" ph="..." />
+            <marker date="1515693728000" expanded="true" signature="480:4112" ph="{...}" />
+            <marker date="1515693728000" expanded="true" signature="487:573" ph="/// The actual coding challange is run from here. ... " />
+            <marker date="1515693728000" expanded="true" signature="617:4110" ph="{...}" />
+            <marker date="1515693728000" expanded="true" signature="632:874" ph="/// Creates configuration, registers instances, runs the API and returns result ... " />
+            <marker date="1515693728000" expanded="true" signature="990:1359" ph="{...}" />
+            <marker date="1515693728000" expanded="true" signature="1377:1885" ph="/// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interf ... " />
+            <marker date="1515693728000" expanded="true" signature="2021:3086" ph="{...}" />
+            <marker date="1515693728000" expanded="true" signature="3096:3196" ph="/// Demo configuration. ... " />
+            <marker date="1515693728000" expanded="true" signature="3261:4104" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="64" column="71" lean-forward="false" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
+          <folding>
+            <marker date="1515693747000" expanded="false" signature="6:408" ph="..." />
+            <marker date="1515693747000" expanded="true" signature="435:3769" ph="{...}" />
+            <marker date="1515693747000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
+            <marker date="1515693747000" expanded="true" signature="711:3767" ph="{...}" />
+            <marker date="1515693747000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
+            <marker date="1515693747000" expanded="true" signature="1057:1369" ph="{...}" />
+            <marker date="1515693747000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
+            <marker date="1515693747000" expanded="true" signature="1734:2725" ph="{...}" />
+            <marker date="1515693747000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
+            <marker date="1515693747000" expanded="true" signature="2918:3761" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -62,7 +62,7 @@ namespace ResolverConsole
         private IConfigurationProvider GetConfiguration()
         {
             var config = new DemoMemoryConfiguration();
-            var latticeFile = "IsakovSolver.lattice";
+            var latticeFile = Path.GetFullPath("IsakovSolver.lattice");
             config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY, Path.Combine("Scripts","isakov_win.exe"));
             config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY+"_OSX", Path.Combine("Scripts", "isakov_mac"));
             config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY+"_UNIX", Path.Combine("Scripts", "isakov_linux"));
