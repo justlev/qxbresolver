@@ -54,7 +54,7 @@ namespace ResolverConsole
             if (input == null) return null;
             
             var graphDivisionAPI = CreateGraphDivisionAPI(input[0], GetConfiguration()); 
-            return graphDivisionAPI.GetResolvedGroups(input.Values, ResultsFilters.GroupsLengthMustBeEqual);
+            return graphDivisionAPI.GetResolvedGroups(input.Values, ResultsFilters.GroupsLengthMustBeEqual, 1);
         }
 
         /// <summary>
