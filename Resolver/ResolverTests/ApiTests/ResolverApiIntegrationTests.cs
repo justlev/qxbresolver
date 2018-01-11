@@ -2,6 +2,7 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
+using Resolver.API;
 using Resolver.CouplingAndBias;
 using Resolver.Models.BinaryGroup;
 using Resolver.Models.Resolving;
@@ -28,7 +29,7 @@ namespace ResolverTests.ApiTests
             resolveResponse.Add(new IsakovScriptResponse(1, sortedQubitsList, 1));
             resolver.Resolve(input, couplingsAndBiases.Biases, couplingsAndBiases.Couplings).Returns(resolveResponse);
             
-            api.GetResolvedGroups(input);
+            api.Resolve(input);
 
             Received.InOrder(() =>
             {

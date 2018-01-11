@@ -25,7 +25,7 @@ namespace Resolver.Facade
             for (var i = 0; i < input.Count(); i++)
             {
                 var currentElement = input.ElementAt(i);
-                var bias = _biasProvider.GetBias(currentElement, currentElement); 
+                var bias = _biasProvider.GetBias(currentElement); 
                 response.AddBias(i, bias);
                 for (var j = i+1; j < input.Count(); j++)
                 {

@@ -29,16 +29,15 @@ namespace Resolver.Filters
                 return false;
             }
             
-            var firstValue = dictionary.ElementAt(0).Value;
+            var firstItemCount = dictionary.ElementAt(0).Value;
             
             var success = true;
-            foreach (var value in dictionary.Values)
+            foreach (var count in dictionary.Values)
             {
-                if (value != firstValue)
-                {
-                    success = false;
-                    break;
-                }
+                if (count == firstItemCount) continue;
+                
+                success = false;
+                break;
             }
             dictionary.Clear();
             return success;

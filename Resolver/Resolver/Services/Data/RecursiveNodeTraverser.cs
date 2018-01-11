@@ -12,7 +12,6 @@ namespace Resolver.Services.Data
             _root = root;
         }
         
-        
         public int GetLengthBetweenNodes(INode<T> item1, INode<T> item2)
         {
             var found = false;

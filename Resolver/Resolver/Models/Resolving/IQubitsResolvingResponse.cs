@@ -9,6 +9,6 @@ namespace Resolver.Models.Resolving
     {
         decimal Energy { get; }
         IEnumerable<short> Qubits { get; }
-        long Occurences { get; }
+        ulong Occurences { get; }
     }
 }

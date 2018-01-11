@@ -19,9 +19,9 @@ namespace ResolverTests.Facade
             
             Received.InOrder(() =>
             {
-                biasProvider.GetBias(1,1);
+                biasProvider.GetBias(1);
                 couplingProvider.GetCoupling(1, 2);
-                biasProvider.GetBias(2, 2);
+                biasProvider.GetBias(2);
             });
         }
     }

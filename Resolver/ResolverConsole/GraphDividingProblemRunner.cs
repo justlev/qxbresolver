@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using Resolver.API;
 using Resolver.Bias;
 using Resolver.Convertion;
 using Resolver.Coupling;
@@ -17,10 +18,23 @@ using Resolver.Services.Process;
 namespace ResolverConsole
 {
     /// <summary>
-    /// The actual code challange is run from here.
+    /// The actual coding challange is run from here.
     /// </summary>
-    public static class GraphTraversalProgram
+    public class GraphDividingProblemRunner
     {
+        /// <summary>
+        /// Creates configuration, registers instances, runs the API and returns result
+        /// </summary>
+        /// <param name="input">Parsed user's input</param>
+        /// <returns>Result of Qubits resolving</returns>
+        public IResponse<IEnumerable<IBinaryGroup<INode<decimal>>>> Run(IDictionary<decimal, INode<decimal>> input)
+        {
+            if (input == null) return null;
+            var graphRootElement = input[0]; //This is element with value 0, which I treat as the root.
+            var graphDivisionAPI = CreateGraphDivisionAPI(graphRootElement , GetConfiguration()); 
+            return graphDivisionAPI.Resolve(input.Values, ResultsFilters.GroupsLengthMustBeEqual, 1);
+        }
+        
         /// <summary>
         /// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interface.
         /// For example and testing purposes, I simply create new objects here, but ALL the classes and APIs expect their dependencies to be injected as interfaces.
@@ -28,7 +42,7 @@ namespace ResolverConsole
         /// <param name="root">Root user's object</param>
         /// <param name="configuration">Configuration reader</param>
         /// <returns>The Graph division API</returns>
-        private static IQubitsCalculationAPI<INode<decimal>> CreateGraphDivisionAPI(INode<decimal> root, IConfigurationProvider configuration)
+        private IQubitsCalculationAPI<INode<decimal>> CreateGraphDivisionAPI(INode<decimal> root, IConfigurationProvider configuration)
         {
             var isakovProcessPath = configuration.GetValueByCurrentPlatform(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY);
             var isakovWorkingDir =
@@ -37,24 +51,11 @@ namespace ResolverConsole
 
             var api = new QubitsCalculationAPI<INode<decimal>, int, decimal, decimal>(
                 new QuantumDataExtractionFacade<INode<decimal>, decimal, decimal>(new GraphTraversalCouplingProvider(new RecursiveNodeTraverser<decimal>(root)),
-                    new GraphTraversalBiasProvider()),
+                    new DefaultValueBiasProvider<INode<decimal>, decimal>()),
                 new IsakovScriptQubitsResolver<INode<decimal>>(new ProcessService(), isakovWorkingDir, isakovProcessPath, processArgs, configuration.GetValue(ConfigurationKeys.ISAKOV_INPUT_FILE_NAME),
                     new SimpleFileService()),
                 new QubitsToGroupsConverter<INode<decimal>>());
             return api;
-        }
-
-        /// <summary>
-        /// Creates configuration, registers instances, runs the API and returns result
-        /// </summary>
-        /// <param name="input">Parsed user's input</param>
-        /// <returns>Result of Qubits resolving</returns>
-        public static IResponse<IEnumerable<IBinaryGroup<INode<decimal>>>> Run(IDictionary<decimal, INode<decimal>> input)
-        {
-            if (input == null) return null;
-            
-            var graphDivisionAPI = CreateGraphDivisionAPI(input[0], GetConfiguration()); 
-            return graphDivisionAPI.GetResolvedGroups(input.Values, ResultsFilters.GroupsLengthMustBeEqual, 1);
         }
 
         /// <summary>

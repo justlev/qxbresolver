@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Resolver.API;
 using Resolver.Bias;
 using Resolver.Convertion;
 using Resolver.Coupling;
@@ -19,14 +20,26 @@ namespace ResolverConsole
     /// This is the same as the IsakovWrapper python script.
     /// I didn't want to have a dependency on the Python script, and decided to implement it myself using the same architecture.
     /// </summary>
-    public static class GroupsComparisonProgram
+    public class GroupsComparisonProblemRunner
     {
+        /// <summary>
+        /// Creates configuration, registers instances, runs the API and returns result 
+        /// </summary>
+        /// <param name="input">parsed user's input</param>
+        /// <returns>Calculated and resolved response</returns>
+        public IResponse<IEnumerable<IBinaryGroup<decimal>>> Run(decimal[] input)
+        {
+            if (input == null) return null;
+            var groupsComparisonAPI = CreateGroupsComparisonAPI(GetConfiguration()); //This is the same thing as the Python script, but in the current's framework implementation.
+            return groupsComparisonAPI.Resolve(input, ResultsFilters.GroupsLengthMustBeEqual);
+        }
+        
         /// <summary>
         /// Creates the Groups Sums Comparison usecase API.
         /// </summary>
         /// <param name="configuration">Configuration provider</param>
         /// <returns>The appropriate for this usecase API.</returns>
-        private static IQubitsCalculationAPI<decimal> CreateGroupsComparisonAPI(IConfigurationProvider configuration)
+        private IQubitsCalculationAPI<decimal> CreateGroupsComparisonAPI(IConfigurationProvider configuration)
         {
             var isakovProcessPath = configuration.GetValueByCurrentPlatform(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY);
             var isakovWorkingDir =
@@ -35,30 +48,18 @@ namespace ResolverConsole
 
             var api = new QubitsCalculationAPI<decimal, int, decimal, decimal>(
                 new QuantumDataExtractionFacade<decimal, decimal, decimal>(new GroupsDifferenceCouplingProvider(),
-                    new GroupsDifferenceBiasProvider()),
+                    new DefaultValueBiasProvider<decimal, decimal>()),
                 new IsakovScriptQubitsResolver<decimal>(new ProcessService(), isakovWorkingDir, isakovProcessPath, processArgs, configuration.GetValue(ConfigurationKeys.ISAKOV_INPUT_FILE_NAME),
                     new SimpleFileService()),
                 new QubitsToGroupsConverter<decimal>());
             return api;
-        }
-
-        /// <summary>
-        /// Creates configuration, registers instances, runs the API and returns result 
-        /// </summary>
-        /// <param name="input">parsed user's input</param>
-        /// <returns>Calculated and resolved response</returns>
-        public static IResponse<IEnumerable<IBinaryGroup<decimal>>> Run(decimal[] input)
-        {
-            if (input == null) return null;
-            var groupsComparisonAPI = CreateGroupsComparisonAPI(GetConfiguration()); //This is the same thing as the Python script, but in the current's framework implementation.
-            return groupsComparisonAPI.GetResolvedGroups(input, ResultsFilters.GroupsLengthMustBeEqual);
         }
         
         /// <summary>
         /// Demo configuration for this usecase.
         /// </summary>
         /// <returns></returns>
-        private static IConfigurationProvider GetConfiguration()
+        private IConfigurationProvider GetConfiguration()
         {
             var config = new DemoMemoryConfiguration();
             var latticeFile = "IsakovSolver.lattice";

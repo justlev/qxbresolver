@@ -11,5 +11,6 @@ namespace Resolver.Models.Nodes
         IEnumerable<INode<T>> Connections { get; }
         T Value { get; }
         void AddConnection(INode<T> connection);
+        void RemoveConnection(INode<T> connection);
     }
 }

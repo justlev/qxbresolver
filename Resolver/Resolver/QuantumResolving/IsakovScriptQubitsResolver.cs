@@ -75,7 +75,7 @@ namespace Resolver.QuantumResolving
                 }
 
                 var response = new IsakovScriptResponse(decimal.Parse(splittedOutput[i]), bytes,
-                    long.Parse(splittedOutput[i + 1]));
+                    ulong.Parse(splittedOutput[i + 1]));
                 listOfResponses.Add(response);
             }
 

@@ -5,14 +5,6 @@ namespace Resolver.Services.Files
 {
     public class SimpleFileService : IFilesService
     {
-        public string ReadFile(string path) //I allow it to throw FileNotFoundException since it's something that has to be reported.
-        {
-            using (var fs = File.OpenText(path))
-            {
-                return fs.ReadToEnd();
-            }
-        }
-
         public void WriteToFile(string path, string content)
         {
             if (File.Exists(path))
@@ -22,7 +14,7 @@ namespace Resolver.Services.Files
 
             using (var fs = File.OpenWrite(path))
             {
-                var encoded = Encoding.UTF8.GetBytes(content);
+                var encoded = Encoding.UTF8.GetBytes(content); //Can be improved by sending encoding externally.
                 fs.Write(encoded, 0, encoded.Length);
                 fs.Flush();
             }

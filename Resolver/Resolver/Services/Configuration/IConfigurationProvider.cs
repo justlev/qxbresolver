@@ -1,7 +1,7 @@
 ﻿namespace Resolver.Services.Configuration
 {
     /// <summary>
-    /// Sample Configuration interface. Any system has configuration.
+    /// Simple Configuration interface. Basic functionality.
     /// </summary>
     public interface IConfigurationProvider
     {

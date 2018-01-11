@@ -4,6 +4,9 @@ using Resolver.Models.Nodes;
 
 namespace ResolverConsole.CommandLineParsers
 {
+    /// <summary>
+    /// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --> Node3,  Node2 --> Node4.
+    /// </summary>
     public class GraphArgsParser : IParser<IDictionary<decimal, INode<decimal>>>
     {
         public IDictionary<decimal, INode<decimal>> Parse(string[] args)

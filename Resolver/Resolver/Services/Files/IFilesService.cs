@@ -7,7 +7,6 @@ namespace Resolver.Services.Files
     /// </summary>
     public interface IFilesService
     {
-        string ReadFile(string path);
         void WriteToFile(string path, string content);
     }
 }

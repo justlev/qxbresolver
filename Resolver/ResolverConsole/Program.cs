@@ -3,13 +3,13 @@ using ResolverConsole.CommandLineParsers;
 
 namespace ResolverConsole
 {
-    class Program
+    public class Program
     {
         /// <summary>
         /// Console consumer of the API.
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (args.Length < 2)
             {
@@ -19,8 +19,10 @@ namespace ResolverConsole
             var argsParser = new GraphArgsParser(); //Dividing the Graph requires a Graph representation, done via Nodes. This is the parser to nodes.
             //var argsParser = new DecimalArrayParser(); //- Use for Difference Between Groups Usecase.
             var parsedArgs = argsParser.Parse(args);
-            //var response = GroupsComparisonProgram.Run(parsedArgs); //- Use for Difference Between Groups Usecase.
-            var response = GraphTraversalProgram.Run(parsedArgs); //Runs the API and gets the response.
+            //var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecase.
+            //var response = groupsComparisonRunner.Run(parsedArgs); 
+            var graphDividingRunner = new GraphDividingProblemRunner();
+            var response = graphDividingRunner.Run(parsedArgs); //Runs the API and gets the response.
             
             if (response.StatusCode != 0)
             {

@@ -1,5 +1,8 @@
 ﻿namespace ResolverConsole.CommandLineParsers
 {
+    /// <summary>
+    /// Args are [procName, 1,2,3,4] as string, parses it to decimal[]. 
+    /// </summary>
     public class DecimalArrayParser : IParser<decimal[]>
     {
         public decimal[] Parse(string[] args)

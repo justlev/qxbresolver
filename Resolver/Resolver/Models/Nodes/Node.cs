@@ -26,6 +26,14 @@ namespace Resolver.Models.Nodes
             _connections.Add(connection);
         }
 
+        public void RemoveConnection(INode<T> connection)
+        {
+            if (_connections.Contains(connection))
+            {
+                _connections.Remove(connection);
+            }
+        }
+
         public override string ToString()
         {
             return Value.ToString();

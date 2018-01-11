@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using Resolver.Convertion;
 using Resolver.Facade;
+using Resolver.Models.BinaryGroup;
 using Resolver.Models.Responses;
 using Resolver.QuantumResolving;
 
-namespace Resolver.Models.BinaryGroup
+namespace Resolver.API
 {
     /// <summary>
-    /// Simple implementation of API. Can be a REST api, a SystemCallAPI, etc. It doesn't matter.
+    /// Simple implementation of the API.
+    /// Gets user's input, extracts the bias and couplings from it, performs computations using a Qubits resolver and returns a response object.
     /// </summary>
+    /// <typeparam name="InputType">User's input type</typeparam>
+    /// <typeparam name="InputIDType">Type of value that identifies one item from the input array. Int index usually.</typeparam>
+    /// <typeparam name="BiasValueType">The type that is used to save the Bias value.</typeparam>
+    /// <typeparam name="CouplingValueType">The type that is used to save the coupling.</typeparam>
     public class QubitsCalculationAPI<InputType, InputIDType, BiasValueType, CouplingValueType> : IQubitsCalculationAPI<InputType>
     {
         //The following are private properties that might be injected via a container or from the constructor.
@@ -30,17 +36,24 @@ namespace Resolver.Models.BinaryGroup
             _qubitsToGroupsConverter = qubitsToGroupsConverter;
         }
 
-        public IResponse<IEnumerable<IBinaryGroup<InputType>>> GetResolvedGroups(IEnumerable<InputType> input, Func<IEnumerable<short>, bool> qubitsResultsFilter = null, int maxResults = -1)
+        /// <summary>
+        /// Gets the optimal solution based on user's input, maxResults and filter.
+        /// </summary>
+        /// <param name="input">User's input</param>
+        /// <param name="qubitsResultsFilter">Optional. A filter to filter out the results.</param>
+        /// <param name="maxResults">Maximum amount of results to return. -1 as default for unlimited amount.</param>
+        /// <returns></returns>
+        public IResponse<IEnumerable<IBinaryGroup<InputType>>> Resolve(IEnumerable<InputType> input, Func<IEnumerable<short>, bool> qubitsResultsFilter = null, int maxResults = -1)
         {
-            if (GetBreakingUsecasesResult(input, out var response)) return response;
+            if (GetBreakingUsecasesResult(input, out var response)) return response; //If input is broken or can be resolved immediately, do it and return.
 
-            var couplingsAndBiases = _dataExtractionFacade.GetCouplingsAndBiases(input);
+            var couplingsAndBiases = _dataExtractionFacade.GetCouplingsAndBiases(input);  //Extract couplings and biases
                                 
-            var qubitsResults = _resolver.Resolve(input, couplingsAndBiases.Biases, couplingsAndBiases.Couplings);
+            var qubitsResults = _resolver.Resolve(input, couplingsAndBiases.Biases, couplingsAndBiases.Couplings);  //Pass extracted data to resolver and get the result
 
-            var finalGroups = _qubitsToGroupsConverter.DivideInputIntoGroupsByQubits(input, qubitsResults.Select(item => item.Qubits), maxResults, qubitsResultsFilter);
+            var finalGroups = _qubitsToGroupsConverter.DivideInputIntoGroupsByQubits(input, qubitsResults.Select(item => item.Qubits), maxResults, qubitsResultsFilter); //Convert result to groups
 
-            return CreateResponseFromGroups(finalGroups);
+            return CreateResponseFromGroups(finalGroups); //Wrap the groups into a Response object with error code and message if neccesary.
         }
 
         /// <summary>

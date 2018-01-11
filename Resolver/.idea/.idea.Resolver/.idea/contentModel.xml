@@ -13,8 +13,7 @@
           <e p="QubitsCalculationAPI.cs" t="Include" />
         </e>
         <e p="Bias" t="Include">
-          <e p="GraphTraversalBiasProvider.cs" t="Include" />
-          <e p="GroupsDifferenceBiasProvider.cs" t="Include" />
+          <e p="DefaultValueBiasProvider.cs" t="Include" />
           <e p="IBiasProvider.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
@@ -110,8 +109,8 @@
           <e p="IParser.cs" t="Include" />
         </e>
         <e p="DemoMemoryConfiguration.cs" t="Include" />
-        <e p="GraphTraversalProgram.cs" t="Include" />
-        <e p="GroupsComparisonProgram.cs" t="Include" />
+        <e p="GraphDividingProblemRunner.cs" t="Include" />
+        <e p="GroupsComparisonProblemRunner.cs" t="Include" />
         <e p="IsakovSolver.lattice" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

@@ -6,9 +6,9 @@ namespace Resolver.Models.Resolving
     {
         public decimal Energy { get; }
         public IEnumerable<short> Qubits { get; }
-        public long Occurences { get; }
+        public ulong Occurences { get; }
 
-        public IsakovScriptResponse(decimal energy, IEnumerable<short> qubits, long occurences)
+        public IsakovScriptResponse(decimal energy, IEnumerable<short> qubits, ulong occurences)
         {
             Energy = energy;
             Qubits = qubits;

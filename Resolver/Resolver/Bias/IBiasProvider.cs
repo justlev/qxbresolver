@@ -2,6 +2,6 @@
 {
     public interface IBiasProvider<InputType, BiasValueType>
     {
-        BiasValueType GetBias(InputType num1, InputType num2);
+        BiasValueType GetBias(InputType num1);
     }
 }

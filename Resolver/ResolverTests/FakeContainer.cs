@@ -1,5 +1,6 @@
 ﻿using System;
 using NSubstitute;
+using Resolver.API;
 using Resolver.Bias;
 using Resolver.Convertion;
 using Resolver.Coupling;
