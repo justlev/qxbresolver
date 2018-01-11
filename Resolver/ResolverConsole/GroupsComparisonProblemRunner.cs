@@ -31,7 +31,7 @@ namespace ResolverConsole
         {
             if (input == null) return null;
             var groupsComparisonAPI = CreateGroupsComparisonAPI(GetConfiguration()); //This is the same thing as the Python script, but in the current's framework implementation.
-            return groupsComparisonAPI.Resolve(input, ResultsFilters.GroupsLengthMustBeEqual);
+            return groupsComparisonAPI.Resolve(input, maxResults:1);
         }
         
         /// <summary>

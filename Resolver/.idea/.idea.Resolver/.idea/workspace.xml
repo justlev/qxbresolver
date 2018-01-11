@@ -3,19 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="32cb7643-505d-44c0-810d-7a7e33c3d5ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Resolver/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Resolver/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs" afterPath="$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs" />
+      <change beforePath="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" afterPath="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" />
       <change beforePath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.dll" />
       <change beforePath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/Resolver/bin/Debug/netcoreapp2.0/Resolver.pdb" />
       <change beforePath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.dll" />
       <change beforePath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/Resolver/obj/Debug/netcoreapp2.0/Resolver.pdb" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" afterPath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" afterPath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" afterPath="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/Program.cs" afterPath="$PROJECT_DIR$/ResolverConsole/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/IsakovSolver.lattice" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/IsakovSolver.lattice" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.dll" />
       <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/Resolver.pdb" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.pdb" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.dll" afterPath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.dll" />
+      <change beforePath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.pdb" afterPath="$PROJECT_DIR$/ResolverConsole/obj/Debug/netcoreapp2.0/ResolverConsole.pdb" />
       <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.dll" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.dll" />
       <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.pdb" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/Resolver.pdb" />
-      <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/ResolverTests.dll" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/ResolverTests.dll" />
-      <change beforePath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/ResolverTests.pdb" afterPath="$PROJECT_DIR$/ResolverTests/bin/Debug/netcoreapp2.0/ResolverTests.pdb" />
-      <change beforePath="$PROJECT_DIR$/ResolverTests/obj/Debug/netcoreapp2.0/ResolverTests.dll" afterPath="$PROJECT_DIR$/ResolverTests/obj/Debug/netcoreapp2.0/ResolverTests.dll" />
-      <change beforePath="$PROJECT_DIR$/ResolverTests/obj/Debug/netcoreapp2.0/ResolverTests.pdb" afterPath="$PROJECT_DIR$/ResolverTests/obj/Debug/netcoreapp2.0/ResolverTests.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,70 +34,61 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResolverConsole/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state relative-caret-position="190">
+              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
-                <marker date="1515689999000" expanded="false" signature="6:55" ph="..." />
-                <marker date="1515689999000" expanded="true" signature="82:1589" ph="{...}" />
-                <marker date="1515689999000" expanded="true" signature="109:1587" ph="{...}" />
-                <marker date="1515689999000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
-                <marker date="1515689999000" expanded="true" signature="288:1581" ph="{...}" />
-                <marker date="1515689999000" expanded="true" signature="331:523" ph="{...}" />
-                <marker date="1515689999000" expanded="true" signature="844:1028" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
-                <marker date="1515689999000" expanded="true" signature="1257:1392" ph="{...}" />
-                <marker date="1515689999000" expanded="true" signature="1445:1571" ph="{...}" />
+                <marker date="1515691924000" expanded="false" signature="6:55" ph="..." />
+                <marker date="1515691924000" expanded="true" signature="82:1755" ph="{...}" />
+                <marker date="1515691924000" expanded="true" signature="109:1753" ph="{...}" />
+                <marker date="1515691924000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
+                <marker date="1515691924000" expanded="true" signature="288:1747" ph="{...}" />
+                <marker date="1515691924000" expanded="true" signature="331:543" ph="{...}" />
+                <marker date="1515691924000" expanded="true" signature="707:897" ph="/* args = new[] {&quot;&quot;,&quot;1&quot;, &quot;4&quot;, &quot;6&quot;, &quot;9&quot;}; //- Use for Difference Between Groups Usecase. ... */" />
+                <marker date="1515691924000" expanded="true" signature="963:1194" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
+                <marker date="1515691924000" expanded="true" signature="1423:1558" ph="{...}" />
+                <marker date="1515691924000" expanded="true" signature="1611:1737" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IQubitsCalculationAPI.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resolver/API/IQubitsCalculationAPI.cs">
+      <file leaf-file-name="QubitsToGroupsConverter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resolver/Convertion/QubitsToGroupsConverter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="465">
+              <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
-                <marker date="1515688384000" expanded="false" signature="6:115" ph="..." />
-                <marker date="1515688384000" expanded="true" signature="139:542" ph="{...}" />
-                <marker date="1515688384000" expanded="true" signature="146:287" ph="/// This is the main API interface. ... " />
-                <marker date="1515688384000" expanded="true" signature="341:540" ph="{...}" />
+                <marker date="1515577200000" expanded="false" signature="6:101" ph="..." />
+                <marker date="1515577200000" expanded="true" signature="132:1712" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="224:1710" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="493:1134" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="635:1094" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="1007:1080" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="1249:1704" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="1366:1667" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="1426:1529" ph="{...}" />
+                <marker date="1515577200000" expanded="true" signature="1550:1653" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBinaryGroup.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/IBinaryGroup.cs">
+      <file leaf-file-name="GroupsComparisonProblemRunner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="197">
+              <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
               <folding>
-                <marker date="1515689253000" expanded="true" signature="72:594" ph="{...}" />
-                <marker date="1515689253000" expanded="true" signature="79:354" ph="/// Contains 2 groups of a given type. ... " />
-                <marker date="1515689253000" expanded="true" signature="399:592" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryGroup.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-              <folding>
-                <marker date="1515691340000" expanded="false" signature="6:176" ph="..." />
-                <marker date="1515691340000" expanded="true" signature="215:1795" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="277:1793" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="391:495" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="546:602" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="653:709" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="764:816" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="863:915" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="958:1214" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="1298:1787" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="1495:1713" ph="{...}" />
-                <marker date="1515691340000" expanded="true" signature="1626:1699" ph="{...}" />
+                <marker date="1515691821000" expanded="false" signature="6:408" ph="..." />
+                <marker date="1515691821000" expanded="true" signature="435:3751" ph="{...}" />
+                <marker date="1515691821000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
+                <marker date="1515691821000" expanded="true" signature="711:3749" ph="{...}" />
+                <marker date="1515691821000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
+                <marker date="1515691821000" expanded="true" signature="1057:1369" ph="{...}" />
+                <marker date="1515691821000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
+                <marker date="1515691821000" expanded="true" signature="1734:2725" ph="{...}" />
+                <marker date="1515691821000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
+                <marker date="1515691821000" expanded="true" signature="2918:3743" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,10 +97,11 @@
       <file leaf-file-name="DemoMemoryConfiguration.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="58" column="109" lean-forward="false" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+            <state relative-caret-position="227">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <marker date="1515666870000" expanded="false" signature="6:103" ph="..." />
+                <marker date="1515666870000" expanded="true" signature="130:2985" ph="{...}" />
                 <marker date="1515666870000" expanded="true" signature="137:540" ph="/// This is a &quot;storage&quot; for testing purposes. ... " />
                 <marker date="1515666870000" expanded="true" signature="606:2983" ph="{...}" />
                 <marker date="1515666870000" expanded="true" signature="728:818" ph="{...}" />
@@ -124,57 +121,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphDividingProblemRunner.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
+      <file leaf-file-name="QubitsCalculationAPI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resolver/API/QubitsCalculationAPI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="457">
+              <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
-                <marker date="1515689942000" expanded="false" signature="6:453" ph="..." />
-                <marker date="1515689942000" expanded="true" signature="487:573" ph="/// The actual coding challange is run from here. ... " />
-                <marker date="1515689942000" expanded="true" signature="617:4092" ph="{...}" />
-                <marker date="1515689942000" expanded="true" signature="632:874" ph="/// Creates configuration, registers instances, runs the API and returns result ... " />
-                <marker date="1515689942000" expanded="true" signature="990:1359" ph="{...}" />
-                <marker date="1515689942000" expanded="true" signature="1377:1885" ph="/// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interf ... " />
-                <marker date="1515689942000" expanded="true" signature="2021:3086" ph="{...}" />
-                <marker date="1515689942000" expanded="true" signature="3096:3196" ph="/// Demo configuration. ... " />
-                <marker date="1515689942000" expanded="true" signature="3261:4086" ph="{...}" />
+                <marker date="1515688505000" expanded="false" signature="6:217" ph="..." />
+                <marker date="1515688505000" expanded="true" signature="241:5046" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="248:861" ph="/// Simple implementation of the API. ... " />
+                <marker date="1515688505000" expanded="true" signature="992:5044" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="1007:1172" ph="/* The following are private properties that might be injected via a container or from the constructor. ... */" />
+                <marker date="1515688505000" expanded="true" signature="1874:2050" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="2060:2483" ph="/// Gets the optimal solution based on user's input, maxResults and filter. ... " />
+                <marker date="1515688505000" expanded="true" signature="2664:3503" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="3513:3722" ph="/// Create a Response object from the resolved output. ... " />
+                <marker date="1515688505000" expanded="true" signature="3856:4146" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="3897:4050" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="4286:5038" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="4394:4577" ph="{...}" />
+                <marker date="1515688505000" expanded="true" signature="4614:5001" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecimalArrayParser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs">
+      <file leaf-file-name="QuantumDataExtractionFacade.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resolver/Facade/QuantumDataExtractionFacade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="370">
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
-                <marker date="1515689769000" expanded="true" signature="51:156" ph="/// Args are [procName, 1,2,3,4] as string, parses it to decimal[].  ... " />
-                <marker date="1515689769000" expanded="true" signature="213:654" ph="{...}" />
-                <marker date="1515689769000" expanded="true" signature="265:648" ph="{...}" />
-                <marker date="1515689769000" expanded="true" signature="384:610" ph="{...}" />
-                <marker date="1515689769000" expanded="true" signature="490:559" ph="{...}" />
+                <marker date="1515688534000" expanded="false" signature="6:130" ph="..." />
+                <marker date="1515688534000" expanded="true" signature="157:1657" ph="{...}" />
+                <marker date="1515688534000" expanded="true" signature="330:1655" ph="{...}" />
+                <marker date="1515688534000" expanded="true" signature="656:770" ph="{...}" />
+                <marker date="1515688534000" expanded="true" signature="897:1649" ph="{...}" />
+                <marker date="1515688534000" expanded="true" signature="1109:1610" ph="{...}" />
+                <marker date="1515688534000" expanded="true" signature="1348:1596" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsComparisonProblemRunner.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
+      <file leaf-file-name="IsakovScriptQubitsResolver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resolver/QuantumResolving/IsakovScriptQubitsResolver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="426">
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding>
-                <marker date="1515689964000" expanded="false" signature="6:408" ph="..." />
-                <marker date="1515689964000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
-                <marker date="1515689964000" expanded="true" signature="711:3775" ph="{...}" />
-                <marker date="1515689964000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
-                <marker date="1515689964000" expanded="true" signature="1057:1395" ph="{...}" />
-                <marker date="1515689964000" expanded="true" signature="1413:1649" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
-                <marker date="1515689964000" expanded="true" signature="1760:2751" ph="{...}" />
-                <marker date="1515689964000" expanded="true" signature="2769:2886" ph="/// Demo configuration for this usecase. ... " />
-                <marker date="1515689964000" expanded="true" signature="2944:3769" ph="{...}" />
+                <marker date="1515689449000" expanded="false" signature="6:240" ph="..." />
+                <marker date="1515689449000" expanded="true" signature="277:3949" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="284:534" ph="/// Our implementation uses the provided Isakov script. ... " />
+                <marker date="1515689449000" expanded="true" signature="641:3947" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="1076:1348" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="1549:2088" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="1765:1838" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="1885:2037" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="2170:3211" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="2519:3164" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="2594:2686" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="2799:2948" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="3340:3941" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="3527:3654" ph="{...}" />
+                <marker date="1515689449000" expanded="true" signature="3703:3834" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphTraversalCouplingProvider.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resolver/Coupling/GraphTraversalCouplingProvider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <marker date="1515668993000" expanded="false" signature="6:58" ph="..." />
+                <marker date="1515668993000" expanded="true" signature="87:671" ph="{...}" />
+                <marker date="1515668993000" expanded="true" signature="94:174" ph="/// This is the actual task implementation. ... " />
+                <marker date="1515668993000" expanded="true" signature="267:669" ph="{...}" />
+                <marker date="1515668993000" expanded="true" signature="417:483" ph="{...}" />
+                <marker date="1515668993000" expanded="true" signature="571:663" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -183,34 +210,39 @@
       <file leaf-file-name="GraphArgsParser.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="428">
+              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
-                <marker date="1515689804000" expanded="false" signature="6:76" ph="..." />
-                <marker date="1515689804000" expanded="true" signature="122:1749" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="129:257" ph="/// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --&gt; Node3,  Node2 --&gt; Node4. ... " />
-                <marker date="1515689804000" expanded="true" signature="338:1747" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="417:1741" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="553:1697" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="655:836" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="925:1110" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="1162:1260" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="1314:1416" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="1446:1554" ph="{...}" />
-                <marker date="1515689804000" expanded="true" signature="1575:1683" ph="{...}" />
+                <marker date="1515693142000" expanded="false" signature="6:76" ph="..." />
+                <marker date="1515693142000" expanded="true" signature="122:1763" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="129:257" ph="/// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --&gt; Node3,  Node2 --&gt; Node4. ... " />
+                <marker date="1515693142000" expanded="true" signature="338:1761" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="417:1755" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="553:1711" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="655:836" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="925:1110" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="1162:1260" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="1314:1416" ph="{...}" />
+                <marker date="1515693142000" expanded="true" signature="1418:1605" ph="/* if (to == 0) ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IParser.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/IParser.cs">
+      <file leaf-file-name="RecursiveNodeTraverser.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+            <state relative-caret-position="213">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
-                <marker date="1515666790000" expanded="true" signature="51:237" ph="/// Describes an object that takes string arguments as input, and returns a parsed object. ... " />
-                <marker date="1515666790000" expanded="true" signature="269:313" ph="{...}" />
+                <marker date="1515693312000" expanded="false" signature="6:42" ph="..." />
+                <marker date="1515693312000" expanded="true" signature="76:1300" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="165:1298" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="257:303" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="385:721" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="837:1292" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="890:978" ph="{...}" />
+                <marker date="1515693312000" expanded="true" signature="1052:1220" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -335,17 +367,17 @@
         <option value="$PROJECT_DIR$/Resolver/Services/Configuration/ConfigurationKeys.cs" />
         <option value="$PROJECT_DIR$/Resolver/Services/Configuration/IConfigurationProvider.cs" />
         <option value="$PROJECT_DIR$/Resolver/Services/Data/INodeTraverser.cs" />
-        <option value="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" />
         <option value="$PROJECT_DIR$/Resolver/Services/Files/IFilesService.cs" />
         <option value="$PROJECT_DIR$/Resolver/Services/Files/SimpleFileService.cs" />
-        <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" />
-        <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GraphTraversalProgram.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProgram.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs" />
+        <option value="$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs" />
+        <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs" />
         <option value="$PROJECT_DIR$/ResolverConsole/Program.cs" />
-        <option value="$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs" />
+        <option value="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs" />
+        <option value="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs" />
       </list>
     </option>
   </component>
@@ -370,6 +402,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -386,13 +419,14 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Resolver (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Resolver" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="API" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Resolver (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Resolver" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="QuantumResolving" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -402,7 +436,8 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Resolver (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="ResolverTests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ResolverConsole" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="CommandLineParsers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -410,7 +445,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Resolver">
+  <component name="RunManager">
     <configuration name="Resolver" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ResolverConsole/bin/Debug/netcoreapp2.0/ResolverConsole.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -449,9 +483,6 @@
       <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
       <browser url="http://localhost:5000" />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue=".NET Project.Resolver" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -474,16 +505,16 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.50946856" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.69883937" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.49053147" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.521686" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.695785" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879817" sideWeight="0.47831398" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33786848" sideWeight="0.49786195" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20281002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20525351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39909297" sideWeight="0.49053147" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,40 +610,14 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs</url>
-          <line>39</line>
-          <properties documentPath="$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
-            <startOffsets>
-              <startOffset value="1382" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1406" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
-            <startOffsets>
-              <startOffset value="1528" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1553" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ResolverConsole/Program.cs</url>
-          <line>22</line>
+          <line>23</line>
           <properties documentPath="$PROJECT_DIR$/ResolverConsole/Program.cs">
             <startOffsets>
-              <startOffset value="973" />
+              <startOffset value="1092" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1028" />
+              <endOffset value="1147" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
@@ -656,8 +661,34 @@
           </properties>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs">
+            <startOffsets>
+              <startOffset value="288" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="330" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
+            <startOffsets>
+              <startOffset value="408" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="426" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -761,43 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/API/QubitsCalculationAPI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="47" column="59" lean-forward="false" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-          <folding>
-            <marker date="1515688505000" expanded="false" signature="6:217" ph="..." />
-            <marker date="1515688505000" expanded="true" signature="248:861" ph="/// Simple implementation of the API. ... " />
-            <marker date="1515688505000" expanded="true" signature="992:5044" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="1007:1172" ph="/* The following are private properties that might be injected via a container or from the constructor. ... */" />
-            <marker date="1515688505000" expanded="true" signature="1874:2050" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="2060:2483" ph="/// Gets the optimal solution based on user's input, maxResults and filter. ... " />
-            <marker date="1515688505000" expanded="true" signature="2664:3503" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="3513:3722" ph="/// Create a Response object from the resolved output. ... " />
-            <marker date="1515688505000" expanded="true" signature="3856:4146" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="3897:4050" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="4286:5038" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="4394:4577" ph="{...}" />
-            <marker date="1515688505000" expanded="true" signature="4614:5001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Facade/QuantumDataExtractionFacade.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <marker date="1515688534000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1515688534000" expanded="true" signature="330:1655" ph="{...}" />
-            <marker date="1515688534000" expanded="true" signature="656:770" ph="{...}" />
-            <marker date="1515688534000" expanded="true" signature="897:1649" ph="{...}" />
-            <marker date="1515688534000" expanded="true" signature="1109:1610" ph="{...}" />
-            <marker date="1515688534000" expanded="true" signature="1348:1596" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resolver/Bias/GraphDivisionBiasProvider.cs" />
     <entry file="file://$PROJECT_DIR$/ResolverTests/Facade/DataExtractionFacadeTests.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,31 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Coupling/GraphTraversalCouplingProvider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Convertion/QubitsToGroupsConverter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <marker date="1515577200000" expanded="false" signature="6:101" ph="..." />
-            <marker date="1515577200000" expanded="true" signature="224:1710" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="493:1134" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="635:1094" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="1007:1080" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="1249:1704" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="1366:1667" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="1426:1529" ph="{...}" />
-            <marker date="1515577200000" expanded="true" signature="1550:1653" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,29 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/QuantumResolving/IsakovScriptQubitsResolver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1515689449000" expanded="false" signature="6:240" ph="..." />
-            <marker date="1515689449000" expanded="true" signature="284:534" ph="/// Our implementation uses the provided Isakov script. ... " />
-            <marker date="1515689449000" expanded="true" signature="641:3947" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="1076:1348" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="1549:2088" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="1765:1838" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="1885:2037" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="2170:3211" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="2519:3164" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="2594:2686" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="2799:2948" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="3340:3941" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="3527:3654" ph="{...}" />
-            <marker date="1515689449000" expanded="true" signature="3703:3834" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resolver/QuantumResolving/IQubitsResolver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -987,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resolver/Services/Files/IFilesService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1019,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <marker date="1515689708000" expanded="false" signature="6:35" ph="..." />
-            <marker date="1515689708000" expanded="true" signature="123:588" ph="{...}" />
-            <marker date="1515689708000" expanded="true" signature="190:582" ph="{...}" />
-            <marker date="1515689708000" expanded="true" signature="235:298" ph="{...}" />
-            <marker date="1515689708000" expanded="true" signature="349:572" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,11 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <marker date="1515689591000" expanded="false" signature="6:42" ph="..." />
-            <marker date="1515689591000" expanded="true" signature="83:378" ph="/// Interface describes a class that traverses between nodes. ... " />
-            <marker date="1515689591000" expanded="true" signature="441:520" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,24 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="105" lean-forward="false" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="105" />
-          <folding>
-            <marker date="1515689559000" expanded="true" signature="48:240" ph="/// Better to save string constants in variables. ... " />
-            <marker date="1515689559000" expanded="true" signature="282:681" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <marker date="1515689769000" expanded="true" signature="51:156" ph="/// Args are [procName, 1,2,3,4] as string, parses it to decimal[].  ... " />
-            <marker date="1515689769000" expanded="true" signature="213:654" ph="{...}" />
-            <marker date="1515689769000" expanded="true" signature="265:648" ph="{...}" />
-            <marker date="1515689769000" expanded="true" signature="384:610" ph="{...}" />
-            <marker date="1515689769000" expanded="true" signature="490:559" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,19 +979,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolver/API/IQubitsCalculationAPI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1515666790000" expanded="true" signature="51:237" ph="/// Describes an object that takes string arguments as input, and returns a parsed object. ... " />
-            <marker date="1515666790000" expanded="true" signature="269:313" ph="{...}" />
+            <marker date="1515688384000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1515688384000" expanded="true" signature="146:287" ph="/// This is the main API interface. ... " />
+            <marker date="1515688384000" expanded="true" signature="341:540" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/IBinaryGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1515689253000" expanded="true" signature="79:354" ph="/// Contains 2 groups of a given type. ... " />
+            <marker date="1515689253000" expanded="true" signature="399:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1515691340000" expanded="false" signature="6:176" ph="..." />
+            <marker date="1515691340000" expanded="true" signature="277:1793" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="391:495" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="546:602" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="653:709" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="764:816" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="863:915" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="958:1214" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="1298:1787" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="1495:1713" ph="{...}" />
+            <marker date="1515691340000" expanded="true" signature="1626:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/DecimalArrayParser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1515691707000" expanded="true" signature="44:654" ph="{...}" />
+            <marker date="1515691707000" expanded="true" signature="51:156" ph="/// Args are [procName, 1,2,3,4] as string, parses it to decimal[].  ... " />
+            <marker date="1515691707000" expanded="true" signature="213:652" ph="{...}" />
+            <marker date="1515691707000" expanded="true" signature="265:646" ph="{...}" />
+            <marker date="1515691707000" expanded="true" signature="380:608" ph="{...}" />
+            <marker date="1515691707000" expanded="true" signature="486:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <folding>
+            <marker date="1515691821000" expanded="false" signature="6:408" ph="..." />
+            <marker date="1515691821000" expanded="true" signature="435:3751" ph="{...}" />
+            <marker date="1515691821000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
+            <marker date="1515691821000" expanded="true" signature="711:3749" ph="{...}" />
+            <marker date="1515691821000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
+            <marker date="1515691821000" expanded="true" signature="1057:1369" ph="{...}" />
+            <marker date="1515691821000" expanded="true" signature="1387:1623" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
+            <marker date="1515691821000" expanded="true" signature="1734:2725" ph="{...}" />
+            <marker date="1515691821000" expanded="true" signature="2743:2860" ph="/// Demo configuration for this usecase. ... " />
+            <marker date="1515691821000" expanded="true" signature="2918:3743" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ResolverConsole/DemoMemoryConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="58" column="109" lean-forward="false" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
+        <state relative-caret-position="227">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <marker date="1515666870000" expanded="false" signature="6:103" ph="..." />
+            <marker date="1515666870000" expanded="true" signature="130:2985" ph="{...}" />
             <marker date="1515666870000" expanded="true" signature="137:540" ph="/// This is a &quot;storage&quot; for testing purposes. ... " />
             <marker date="1515666870000" expanded="true" signature="606:2983" ph="{...}" />
             <marker date="1515666870000" expanded="true" signature="728:818" ph="{...}" />
@@ -1101,123 +1091,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/GraphDividingProblemRunner.cs">
+    <entry file="file://$PROJECT_DIR$/Resolver/Coupling/GraphTraversalCouplingProvider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="270">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
-            <marker date="1515689942000" expanded="false" signature="6:453" ph="..." />
-            <marker date="1515689942000" expanded="true" signature="487:573" ph="/// The actual coding challange is run from here. ... " />
-            <marker date="1515689942000" expanded="true" signature="617:4092" ph="{...}" />
-            <marker date="1515689942000" expanded="true" signature="632:874" ph="/// Creates configuration, registers instances, runs the API and returns result ... " />
-            <marker date="1515689942000" expanded="true" signature="990:1359" ph="{...}" />
-            <marker date="1515689942000" expanded="true" signature="1377:1885" ph="/// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interf ... " />
-            <marker date="1515689942000" expanded="true" signature="2021:3086" ph="{...}" />
-            <marker date="1515689942000" expanded="true" signature="3096:3196" ph="/// Demo configuration. ... " />
-            <marker date="1515689942000" expanded="true" signature="3261:4086" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResolverConsole/GroupsComparisonProblemRunner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <marker date="1515689964000" expanded="false" signature="6:408" ph="..." />
-            <marker date="1515689964000" expanded="true" signature="442:664" ph="/// This is the same as the IsakovWrapper python script. ... " />
-            <marker date="1515689964000" expanded="true" signature="711:3775" ph="{...}" />
-            <marker date="1515689964000" expanded="true" signature="726:975" ph="/// Creates configuration, registers instances, runs the API and returns result  ... " />
-            <marker date="1515689964000" expanded="true" signature="1057:1395" ph="{...}" />
-            <marker date="1515689964000" expanded="true" signature="1413:1649" ph="/// Creates the Groups Sums Comparison usecase API. ... " />
-            <marker date="1515689964000" expanded="true" signature="1760:2751" ph="{...}" />
-            <marker date="1515689964000" expanded="true" signature="2769:2886" ph="/// Demo configuration for this usecase. ... " />
-            <marker date="1515689964000" expanded="true" signature="2944:3769" ph="{...}" />
+            <marker date="1515668993000" expanded="false" signature="6:58" ph="..." />
+            <marker date="1515668993000" expanded="true" signature="87:671" ph="{...}" />
+            <marker date="1515668993000" expanded="true" signature="94:174" ph="/// This is the actual task implementation. ... " />
+            <marker date="1515668993000" expanded="true" signature="267:669" ph="{...}" />
+            <marker date="1515668993000" expanded="true" signature="417:483" ph="{...}" />
+            <marker date="1515668993000" expanded="true" signature="571:663" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ResolverConsole/CommandLineParsers/GraphArgsParser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="428">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding>
-            <marker date="1515689804000" expanded="false" signature="6:76" ph="..." />
-            <marker date="1515689804000" expanded="true" signature="122:1749" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="129:257" ph="/// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --&gt; Node3,  Node2 --&gt; Node4. ... " />
-            <marker date="1515689804000" expanded="true" signature="338:1747" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="417:1741" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="553:1697" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="655:836" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="925:1110" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="1162:1260" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="1314:1416" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="1446:1554" ph="{...}" />
-            <marker date="1515689804000" expanded="true" signature="1575:1683" ph="{...}" />
+            <marker date="1515693142000" expanded="false" signature="6:76" ph="..." />
+            <marker date="1515693142000" expanded="true" signature="122:1763" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="129:257" ph="/// User's input is [procName, 1, 3, 2, 4], parses it to Node1 --&gt; Node3,  Node2 --&gt; Node4. ... " />
+            <marker date="1515693142000" expanded="true" signature="338:1761" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="417:1755" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="553:1711" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="655:836" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="925:1110" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="1162:1260" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="1314:1416" ph="{...}" />
+            <marker date="1515693142000" expanded="true" signature="1418:1605" ph="/* if (to == 0) ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ResolverConsole/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="190">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
-            <marker date="1515689999000" expanded="false" signature="6:55" ph="..." />
-            <marker date="1515689999000" expanded="true" signature="82:1589" ph="{...}" />
-            <marker date="1515689999000" expanded="true" signature="109:1587" ph="{...}" />
-            <marker date="1515689999000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
-            <marker date="1515689999000" expanded="true" signature="288:1581" ph="{...}" />
-            <marker date="1515689999000" expanded="true" signature="331:523" ph="{...}" />
-            <marker date="1515689999000" expanded="true" signature="844:1028" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
-            <marker date="1515689999000" expanded="true" signature="1257:1392" ph="{...}" />
-            <marker date="1515689999000" expanded="true" signature="1445:1571" ph="{...}" />
+            <marker date="1515691924000" expanded="false" signature="6:55" ph="..." />
+            <marker date="1515691924000" expanded="true" signature="82:1755" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="109:1753" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="124:241" ph="/// Console consumer of the API. ... " />
+            <marker date="1515691924000" expanded="true" signature="288:1747" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="331:543" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="707:897" ph="/* args = new[] {&quot;&quot;,&quot;1&quot;, &quot;4&quot;, &quot;6&quot;, &quot;9&quot;}; //- Use for Difference Between Groups Usecase. ... */" />
+            <marker date="1515691924000" expanded="true" signature="963:1194" ph="/* var groupsComparisonRunner = new GroupsComparisonProblemRunner(); //- Use for Difference Between Groups Usecas ... */" />
+            <marker date="1515691924000" expanded="true" signature="1423:1558" ph="{...}" />
+            <marker date="1515691924000" expanded="true" signature="1611:1737" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/API/IQubitsCalculationAPI.cs">
+    <entry file="file://$PROJECT_DIR$/Resolver/Facade/QuantumDataExtractionFacade.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="370">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <marker date="1515688384000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1515688384000" expanded="true" signature="139:542" ph="{...}" />
-            <marker date="1515688384000" expanded="true" signature="146:287" ph="/// This is the main API interface. ... " />
-            <marker date="1515688384000" expanded="true" signature="341:540" ph="{...}" />
+            <marker date="1515688534000" expanded="false" signature="6:130" ph="..." />
+            <marker date="1515688534000" expanded="true" signature="157:1657" ph="{...}" />
+            <marker date="1515688534000" expanded="true" signature="330:1655" ph="{...}" />
+            <marker date="1515688534000" expanded="true" signature="656:770" ph="{...}" />
+            <marker date="1515688534000" expanded="true" signature="897:1649" ph="{...}" />
+            <marker date="1515688534000" expanded="true" signature="1109:1610" ph="{...}" />
+            <marker date="1515688534000" expanded="true" signature="1348:1596" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/IBinaryGroup.cs">
+    <entry file="file://$PROJECT_DIR$/Resolver/QuantumResolving/IsakovScriptQubitsResolver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="426">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
           <folding>
-            <marker date="1515689253000" expanded="true" signature="72:594" ph="{...}" />
-            <marker date="1515689253000" expanded="true" signature="79:354" ph="/// Contains 2 groups of a given type. ... " />
-            <marker date="1515689253000" expanded="true" signature="399:592" ph="{...}" />
+            <marker date="1515689449000" expanded="false" signature="6:240" ph="..." />
+            <marker date="1515689449000" expanded="true" signature="277:3949" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="284:534" ph="/// Our implementation uses the provided Isakov script. ... " />
+            <marker date="1515689449000" expanded="true" signature="641:3947" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="1076:1348" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="1549:2088" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="1765:1838" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="1885:2037" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="2170:3211" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="2519:3164" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="2594:2686" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="2799:2948" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="3340:3941" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="3527:3654" ph="{...}" />
+            <marker date="1515689449000" expanded="true" signature="3703:3834" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resolver/Models/BinaryGroup/BinaryGroup.cs">
+    <entry file="file://$PROJECT_DIR$/Resolver/Convertion/QubitsToGroupsConverter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="465">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
-            <marker date="1515691340000" expanded="false" signature="6:176" ph="..." />
-            <marker date="1515691340000" expanded="true" signature="215:1795" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="277:1793" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="391:495" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="546:602" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="653:709" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="764:816" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="863:915" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="958:1214" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="1298:1787" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="1495:1713" ph="{...}" />
-            <marker date="1515691340000" expanded="true" signature="1626:1699" ph="{...}" />
+            <marker date="1515577200000" expanded="false" signature="6:101" ph="..." />
+            <marker date="1515577200000" expanded="true" signature="132:1712" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="224:1710" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="493:1134" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="635:1094" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="1007:1080" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="1249:1704" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="1366:1667" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="1426:1529" ph="{...}" />
+            <marker date="1515577200000" expanded="true" signature="1550:1653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolver/API/QubitsCalculationAPI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+          <folding>
+            <marker date="1515688505000" expanded="false" signature="6:217" ph="..." />
+            <marker date="1515688505000" expanded="true" signature="241:5046" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="248:861" ph="/// Simple implementation of the API. ... " />
+            <marker date="1515688505000" expanded="true" signature="992:5044" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="1007:1172" ph="/* The following are private properties that might be injected via a container or from the constructor. ... */" />
+            <marker date="1515688505000" expanded="true" signature="1874:2050" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="2060:2483" ph="/// Gets the optimal solution based on user's input, maxResults and filter. ... " />
+            <marker date="1515688505000" expanded="true" signature="2664:3503" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="3513:3722" ph="/// Create a Response object from the resolved output. ... " />
+            <marker date="1515688505000" expanded="true" signature="3856:4146" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="3897:4050" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="4286:5038" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="4394:4577" ph="{...}" />
+            <marker date="1515688505000" expanded="true" signature="4614:5001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolver/Services/Data/RecursiveNodeTraverser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <marker date="1515693312000" expanded="false" signature="6:42" ph="..." />
+            <marker date="1515693312000" expanded="true" signature="76:1300" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="165:1298" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="257:303" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="385:721" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="837:1292" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="890:978" ph="{...}" />
+            <marker date="1515693312000" expanded="true" signature="1052:1220" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -38,14 +38,14 @@ namespace ResolverConsole.CommandLineParsers
                     vertexToNode[from] = new Node<decimal>(from);
                 }
 
-                if (to == 0)
-                {
-                    vertexToNode[to].AddConnection(vertexToNode[from]);
-                }
-                else
-                {
+//                if (to == 0)
+//                {
+//                    vertexToNode[to].AddConnection(vertexToNode[from]);
+//                }
+//                else
+//                {
                     vertexToNode[from].AddConnection(vertexToNode[to]);
-                }
+                //}
             }
 
             return vertexToNode;

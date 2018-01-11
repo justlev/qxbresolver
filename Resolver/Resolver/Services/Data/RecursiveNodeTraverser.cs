@@ -19,10 +19,7 @@ namespace Resolver.Services.Data
             if (found) return result;
             result = RecursiveCalculatePathBetweenItems(item2, item1.Value, ref found, 0);
             if (found) return result;
-            var fromRootTo1 = RecursiveCalculatePathBetweenItems(_root, item1.Value, ref found, 0);
-            found = false;
-            var fromRootTo2 = RecursiveCalculatePathBetweenItems(_root, item2.Value, ref found, 0);
-            return fromRootTo1 + fromRootTo2;
+            return -1;
         }
         
         private int RecursiveCalculatePathBetweenItems(INode<T> root, T target, ref bool found, int count)
