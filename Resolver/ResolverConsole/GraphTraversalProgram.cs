@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using Resolver.Bias;
 using Resolver.Convertion;
 using Resolver.Coupling;
@@ -9,39 +10,68 @@ using Resolver.Models.Nodes;
 using Resolver.Models.Responses;
 using Resolver.QuantumResolving;
 using Resolver.Services.Configuration;
+using Resolver.Services.Data;
 using Resolver.Services.Files;
 using Resolver.Services.Process;
 
 namespace ResolverConsole
 {
+    /// <summary>
+    /// The actual code challange is run from here.
+    /// </summary>
     public static class GraphTraversalProgram
     {
         /// <summary>
-        /// Creates an API.
-        /// Can be a Rest API, can be a dll library published, can be any implementation.
+        /// Imagine we have a Container (Castle, Zenject, whatever) that holds all of our instances based on their interface.
+        /// For example and testing purposes, I simply create new objects here, but ALL the classes and APIs expect their dependencies to be injected as interfaces.
         /// </summary>
+        /// <param name="root">Root user's object</param>
+        /// <param name="configuration">Configuration reader</param>
+        /// <returns>The Graph division API</returns>
         private static IQubitsCalculationAPI<INode<decimal>> CreateGraphDivisionAPI(INode<decimal> root, IConfigurationProvider configuration)
         {
-            var isakovProcessPath = configuration.GetValue(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY);
+            var isakovProcessPath = configuration.GetValueByCurrentPlatform(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY);
             var isakovWorkingDir =
                 configuration.GetValue(ConfigurationKeys.ISAKOV_RESOLVER_WORKING_DIRECTORY_CONFIG_KEY);
             var processArgs = configuration.GetValue(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_ARGS_CONFIG_KEY);
 
             var api = new QubitsCalculationAPI<INode<decimal>, int, decimal, decimal>(
-                new QuantumDataExtractionFacade<INode<decimal>, decimal, decimal>(new GraphTraversalCouplingProvider(root),
+                new QuantumDataExtractionFacade<INode<decimal>, decimal, decimal>(new GraphTraversalCouplingProvider(new RecursiveNodeTraverser<decimal>(root)),
                     new GraphTraversalBiasProvider()),
-                new IsakovScriptQubitsResolver<INode<decimal>>(new ProcessService(), isakovWorkingDir, isakovProcessPath, processArgs,
+                new IsakovScriptQubitsResolver<INode<decimal>>(new ProcessService(), isakovWorkingDir, isakovProcessPath, processArgs, configuration.GetValue(ConfigurationKeys.ISAKOV_INPUT_FILE_NAME),
                     new SimpleFileService()),
                 new QubitsToGroupsConverter<INode<decimal>>());
             return api;
         }
 
-        public static IResponse<IBinaryGroup<INode<decimal>>> Run(IDictionary<decimal, INode<decimal>> input)
+        /// <summary>
+        /// Creates configuration, registers instances, runs the API and returns result
+        /// </summary>
+        /// <param name="input">Parsed user's input</param>
+        /// <returns>Result of Qubits resolving</returns>
+        public static IResponse<IEnumerable<IBinaryGroup<INode<decimal>>>> Run(IDictionary<decimal, INode<decimal>> input)
         {
             if (input == null) return null;
             
-            var graphDivisionAPI = CreateGraphDivisionAPI(input[0], new DemoMemoryConfiguration()); 
-            return graphDivisionAPI.GetBestEqualGroups(input.Values, ResultsFilters.GroupsLengthMustBeEqual);
+            var graphDivisionAPI = CreateGraphDivisionAPI(input[0], GetConfiguration()); 
+            return graphDivisionAPI.GetResolvedGroups(input.Values, ResultsFilters.GroupsLengthMustBeEqual);
+        }
+
+        /// <summary>
+        /// Demo configuration.
+        /// </summary>
+        /// <returns></returns>
+        private static IConfigurationProvider GetConfiguration()
+        {
+            var config = new DemoMemoryConfiguration();
+            var latticeFile = "IsakovSolver.lattice";
+            config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY, Path.Combine("Scripts","isakov_win.exe"));
+            config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY+"_OSX", Path.Combine("Scripts", "isakov_mac"));
+            config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_CONFIG_KEY+"_UNIX", Path.Combine("Scripts", "isakov_linux"));
+            config.Add(ConfigurationKeys.ISAKOV_INPUT_FILE_NAME, latticeFile);
+            config.Add(ConfigurationKeys.ISAKOV_RESOLVER_WORKING_DIRECTORY_CONFIG_KEY, "Scripts");
+            config.Add(ConfigurationKeys.ISAKOV_RESOLVER_PROCESS_ARGS_CONFIG_KEY, "-s 100 -r 100000 -l "+latticeFile);
+            return config;
         }
     }
 }

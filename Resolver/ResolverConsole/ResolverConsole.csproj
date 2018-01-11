@@ -8,5 +8,6 @@
       <Project>{5968293F-7F27-4970-BD1D-498D744AC51E}</Project>
       <Name>Resolver</Name>
     </ProjectReference>
+    <Content Include="..\Resolver\Scripts\*"/> 
   </ItemGroup>
 </Project>

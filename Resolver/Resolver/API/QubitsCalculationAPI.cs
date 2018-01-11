@@ -9,7 +9,7 @@ using Resolver.QuantumResolving;
 namespace Resolver.Models.BinaryGroup
 {
     /// <summary>
-    /// Sample implementation of API. Can be a REST api, a SystemCallAPI, etc. It doesn't matter.
+    /// Simple implementation of API. Can be a REST api, a SystemCallAPI, etc. It doesn't matter.
     /// </summary>
     public class QubitsCalculationAPI<InputType, InputIDType, BiasValueType, CouplingValueType> : IQubitsCalculationAPI<InputType>
     {
@@ -30,7 +30,7 @@ namespace Resolver.Models.BinaryGroup
             _qubitsToGroupsConverter = qubitsToGroupsConverter;
         }
 
-        public IResponse<IBinaryGroup<InputType>> GetBestEqualGroups(IEnumerable<InputType> input, Func<IEnumerable<short>, bool> qubitsResultsFilter = null)
+        public IResponse<IEnumerable<IBinaryGroup<InputType>>> GetResolvedGroups(IEnumerable<InputType> input, Func<IEnumerable<short>, bool> qubitsResultsFilter = null, int maxResults = -1)
         {
             if (GetBreakingUsecasesResult(input, out var response)) return response;
 
@@ -38,38 +38,41 @@ namespace Resolver.Models.BinaryGroup
                                 
             var qubitsResults = _resolver.Resolve(input, couplingsAndBiases.Biases, couplingsAndBiases.Couplings);
 
-            var finalGroups = _qubitsToGroupsConverter.DivideInputIntoGroupsByQubits(input, qubitsResults.Select(item => item.Qubits), 1, qubitsResultsFilter);
+            var finalGroups = _qubitsToGroupsConverter.DivideInputIntoGroupsByQubits(input, qubitsResults.Select(item => item.Qubits), maxResults, qubitsResultsFilter);
 
             return CreateResponseFromGroups(finalGroups);
         }
 
-        private IResponse<IBinaryGroup<InputType>> CreateResponseFromGroups(IEnumerable<IBinaryGroup<InputType>> finalGroups)
+        /// <summary>
+        /// Create a Response object from the resolved output.
+        /// </summary>
+        /// <param name="groups"></param>
+        /// <returns>Groups wrapped in a response object.</returns>
+        private IResponse<IEnumerable<IBinaryGroup<InputType>>> CreateResponseFromGroups(IEnumerable<IBinaryGroup<InputType>> groups)
         {
-            if (!finalGroups.Any())
+            if (!groups.Any())
             {
-                return new GeneralResponse<IBinaryGroup<InputType>>(null, 400, "No matching group was found.");
+                return new GeneralResponse<IEnumerable<IBinaryGroup<InputType>>>(null, 400, "No matching group was found.");
             }
-            return new GeneralResponse<IBinaryGroup<InputType>>(finalGroups.First());
+            return new GeneralResponse<IEnumerable<IBinaryGroup<InputType>>>(groups);
         }
 
-        private bool GetBreakingUsecasesResult(IEnumerable<InputType> input, out IResponse<IBinaryGroup<InputType>> response)
+        private bool GetBreakingUsecasesResult(IEnumerable<InputType> input, out IResponse<IEnumerable<IBinaryGroup<InputType>>> response)
         {
             response = null;
-            if (input == null || !input.Any())
+            if (input == null || !input.Any() || input.Count() == 1)
             {
-                response = new GeneralResponse<IBinaryGroup<InputType>>(null, 400, "The input was null/empty.");
+                response = new GeneralResponse<IEnumerable<IBinaryGroup<InputType>>>(null, 400, "The input was null/empty.");
                 return true;
             }
 
-            //TODO: Fix this, since it doesn't work when root node is sent.
-            return false;
-            if (input.Count() < 3)
+            if (input.Count() == 2)
             {
                 var group = new BinaryGroup<InputType>();
                 group.AddToGroup1(input.First());
                 group.AddToGroup2(input.ElementAt(1));
-                    response = new GeneralResponse<IBinaryGroup<InputType>>(
-                        group, 200);
+                    response = new GeneralResponse<IEnumerable<IBinaryGroup<InputType>>>(
+                        new List<IBinaryGroup<InputType>> {group}, 200);
                     return true;
             }
 

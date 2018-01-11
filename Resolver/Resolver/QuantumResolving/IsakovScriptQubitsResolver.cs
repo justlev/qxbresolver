@@ -10,23 +10,28 @@ using Resolver.Services.Process;
 
 namespace Resolver.QuantumResolving
 {
+    /// <summary>
+    /// Our implementation uses the provided Isakov script.
+    /// It is invoked using helper services like the IProcessService and IFilesService.
+    /// </summary>
+    /// <typeparam name="InputType">Type of User's input.</typeparam>
     public class IsakovScriptQubitsResolver<InputType> : IQubitsResolver<InputType, int, decimal, decimal>
     {
-        private const string LETTICE_FILE_NAME = "IsakovSolver.lattice";
-        
         private IProcessService _processService;
         private string _args;
         private string _workingDirectory;
         private string _fileName;
+        private string _scriptInputFileName;
         private IFilesService _fileService;
 
-        public IsakovScriptQubitsResolver(IProcessService processService, string workingDirectory, string fileName, string args, IFilesService fileService)
+        public IsakovScriptQubitsResolver(IProcessService processService, string workingDirectory, string fileName, string args, string scriptInputFileName, IFilesService fileService)
         {
             _processService = processService;
             _fileService = fileService;
             _workingDirectory = workingDirectory;
             _fileName = fileName;
             _args = args;
+            _scriptInputFileName = scriptInputFileName;
         }
         
         public IEnumerable<IQubitsResolvingResponse> Resolve(IEnumerable<InputType> inputNumbers, IEnumerable<IBias<int, decimal>> biases, IEnumerable<ICoupling<int, decimal>> numToCouplings)
@@ -34,7 +39,7 @@ namespace Resolver.QuantumResolving
             DumpToLatticeFile(biases, numToCouplings);
             
             var output = string.Empty;
-            using (var stream = _processService.StartProcess(_workingDirectory, _fileName, _args +" -l "+LETTICE_FILE_NAME))
+            using (var stream = _processService.StartProcess(_workingDirectory, _fileName, _args))
             {
                 output = stream.ReadToEnd();
             }
@@ -93,7 +98,7 @@ namespace Resolver.QuantumResolving
                 fileContent.Append(Environment.NewLine);
             }
             
-            _fileService.WriteToFile(LETTICE_FILE_NAME, fileContent.ToString());
+            _fileService.WriteToFile(_scriptInputFileName, fileContent.ToString());
         }
     }
 }

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.0/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.0/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mstest.testadapter/1.2.0/build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
     <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_Resolver.-1724165109.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
@@ -84,6 +87,10 @@
             <e p="ConfigurationKeys.cs" t="Include" />
             <e p="IConfigurationProvider.cs" t="Include" />
           </e>
+          <e p="Data" t="Include">
+            <e p="INodeTraverser.cs" t="Include" />
+            <e p="RecursiveNodeTraverser.cs" t="Include" />
+          </e>
           <e p="Files" t="Include">
             <e p="IFilesService.cs" t="Include" />
             <e p="SimpleFileService.cs" t="Include" />
@@ -115,6 +122,40 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="ResolverConsole.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ResolverTests" t="IncludeRecursive">
+        <e p="ApiTests" t="Include">
+          <e p="ResolverAPIIntegrationTests.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Conversion" t="Include">
+          <e p="QubitsToGroupsConverterTests.cs" t="Include" />
+        </e>
+        <e p="Couplings" t="Include">
+          <e p="CouplingTests.cs" t="Include" />
+        </e>
+        <e p="Facade" t="Include">
+          <e p="DataExtractionFacadeTests.cs" t="Include" />
+        </e>
+        <e p="FakeContainer.cs" t="Include" />
+        <e p="Filters" t="Include">
+          <e p="ResultsFilterTests.cs" t="Include" />
+        </e>
+        <e p="IsakovResolverWrapperTests" t="Include">
+          <e p="IsakovResolverTests.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="ResolverTests.AssemblyInfo.cs" t="Include" />
+              <e p="ResolverTests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ResolverTests.csproj" t="IncludeRecursive" />
+        <e p="TraversalTests" t="Include">
+          <e p="TraverserTests.cs" t="Include" />
+        </e>
       </e>
     </e>
   </component>

@@ -3,6 +3,11 @@ using System.Linq;
 
 namespace Resolver.Filters
 {
+    /// <summary>
+    /// Static class that will contain optional filters for the resolved values.
+    /// Maybe we only want groups that have equal amount of elements? maybe something else?
+    /// Here is the place to define those. 
+    /// </summary>
     public static class ResultsFilters
     {
         public static bool GroupsLengthMustBeEqual(IEnumerable<short> qubits)

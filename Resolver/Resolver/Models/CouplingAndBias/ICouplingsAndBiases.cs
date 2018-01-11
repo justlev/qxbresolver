@@ -5,9 +5,11 @@ using Resolver.Models.Coupling;
 namespace Resolver.CouplingAndBias
 {
     /// <summary>
-    /// This interface simply contains an Enumerable of Couplings and Enumerable of Biases.
-    /// The only reason for this interface is to make the code more readable.
+    /// Simple wrapper that has both the couplings and biases.
     /// </summary>
+    /// <typeparam name="ElementIDType">Type of element that is used to identify the specific element in the user's input.</typeparam>
+    /// <typeparam name="BiasValueType">Type of value that holds the Bias</typeparam>
+    /// <typeparam name="CouplingValueType">Type of value that holds the Couplings.</typeparam>
     public interface ICouplingsAndBiases<ElementIDType, BiasValueType, CouplingValueType>
     {
         IEnumerable<ICoupling<ElementIDType, CouplingValueType>> Couplings { get; }

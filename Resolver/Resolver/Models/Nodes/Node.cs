@@ -21,9 +21,9 @@ namespace Resolver.Models.Nodes
             Value = value;
         }
 
-        public void AddConnection(INode<T> from)
+        public void AddConnection(INode<T> connection)
         {
-            _connections.Add(from);
+            _connections.Add(connection);
         }
 
         public override string ToString()

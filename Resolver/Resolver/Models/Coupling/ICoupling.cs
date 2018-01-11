@@ -1,13 +1,14 @@
 ﻿namespace Resolver.Models.Coupling
 {
     /// <summary>
-    /// Describes a generic coupling model.
+    /// Describes Coupling between two objects.
     /// </summary>
-    /// <typeparam name="ElementIndexType"></typeparam>
-    public interface ICoupling<ElementIndexType, CouplingValueType>
+    /// <typeparam name="ElementIDType">The type of value used to index the element. (array index for example)</typeparam>
+    /// <typeparam name="CouplingValueType">Type of value that holds the coupling.</typeparam>
+    public interface ICoupling<ElementIDType, CouplingValueType>
     {
-        ElementIndexType OriginalElementID { get; }
-        ElementIndexType CoupledElementId { get; }
+        ElementIDType OriginalElementID { get; }
+        ElementIDType CoupledElementId { get; }
         CouplingValueType CouplingValue { get; }
     }
 }
